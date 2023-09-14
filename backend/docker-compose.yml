@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:  
+  backend:
+    image: itbakery/employee-backend
+    build:
+      context: .
+    ports:
+      - "8080:8080"
